@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="domain.service:war exploded">
+    <output-path>$PROJECT_DIR$/domain.service/target/domain-1.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="domain.service/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="domain.service" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax:javaee-api:6.0" />
+          <element id="library" level="project" name="Maven: javax:javaee-web-api:7.0-b85" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
